@@ -1,0 +1,15 @@
+title: IoT Conference Deadlines # (Maintained by @abhshkdz)
+# email: abhshkdz@vt.edu
+description: Countdowns to top Network/Mobile/IoT/Edge Computing conference deadlines
+author: Borui Li
+
+domain: "liborui.github.io"
+baseurl: "/iot-conf-deadlines"
+
+github_username: liborui
+github_repo: iot-conf-deadlines
+
+markdown: kramdown
+ga_id: UA-36274081-2
+
+include: ['_pages']
