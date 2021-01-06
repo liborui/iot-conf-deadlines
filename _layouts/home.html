@@ -64,8 +64,8 @@
               </div>
               <div class="meta col-xs-12">
                 You can optionally export all deadlines to
-                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/ai-deadlines.ics">Google Calendar</a> or
-                <a href="/ai-deadlines.ics">.ics</a>.
+                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/iot-conf-deadlines.ics">Google Calendar</a> or
+                <a href="/iot-conf-deadlines.ics">.ics</a>.
               </div>
             </div>
         </div>
@@ -75,7 +75,7 @@
           <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
             <div class="row conf-row">
                 <div class="col-xs-5 col-sm-6">
-                    <a class="conf-title" href="/conference?id={{ conf.id }}">{{conf.title}} {{conf.year}}</a>
+                    <a class="conf-title" href="{{conf.link}}">{{conf.title}} {{conf.year}}</a>
                 </div>
                 <div class="col-xs-7 col-sm-6">
                   <span class="timer"></span>
@@ -84,12 +84,12 @@
             <div class="row">
               <div class="col-xs-12 col-sm-6">
                 <div class="meta">
-                  <span class="conf-date">{{conf.date}}.</span>
+                  <span class="conf-date">{{conf.date}}.<br>Will be held </span>
                   <span class="conf-place">
                     {% if conf.place == "Online" %}
-                    <a href="#">{{conf.place}}</a>.
+                    <i>{{conf.place}}</i>.
                     {% else %}
-                    <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+                    at <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
                     {% endif %}
                   </span>
                 </div>
@@ -105,6 +105,11 @@
                     <span class="deadline-time"></span>
                   </div>
                 </div>
+                {% if conf.notification %}
+                <div class="notification">
+                  Notification: {{conf.notification}}
+                </div>
+                {% endif %}
                 <div class="calendar"></div>
               </div>
             </div>
@@ -125,7 +130,7 @@
         <footer>
           <div class="row">
             <div class="col-xs-12 col-sm-6">
-              <a href="https://clustrmaps.com/site/1beus"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=pINw3REIgziceO0EKOn3LCdfWFtA9M6vA-oc_lahru4&cl=ffffff" /></a><br>
+              <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=oDwUDEi8EdH6KbEaEvu59weG84t5E8v-BPkI9uVzKKs"></script>
               <!-- <a href="/">{{ site.domain }}</a> is maintained by <a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br> -->
               <a href="/">{{ site.domain }}</a> is maintained by <a href="https://github.com/{{ site.github_username }}"></a>@{{ site.github_username }}</a>.<br>
               If you find it useful, consider give him <a target="_blank" href="https://github.com/liborui/iot-conf-deadlines">a star</a>.

@@ -2,3 +2,8 @@
 - name: Mobile Computing
   sub: MOB
 
+- name: Networking
+  sub: NET
+
+- name: System
+  sub: OS

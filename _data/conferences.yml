@@ -8,8 +8,78 @@
   abstract_deadline: '2021-01-08 23:59:59'
   deadline: '2021-01-15 23:59:59'
   timezone: UTC-12
+  notification: March 26, 2021
   date: April 8-10, 2021
   place: Online
   sub: MOB
-  note: '<b>NOTE</b>: Mandatory abstract deadline on Jan 7, 2021. More info <a href=''https://www.chilconference.org''>here</a>.'
+  note: '<b>Note:</b>Early rejection: March 1st.'
 
+- title: SIGCOMM
+  hindex: 44
+  year: 2021
+  id: sigcomm21
+  link: https://conferences.sigcomm.org/sigcomm/2021/
+  abstract_deadline: '2021-01-20 16:59:59'
+  deadline: '2021-01-27 16:59:59'
+  timezone: UTC-5
+  notification: May 3, 2021
+  date: August 23-27, 2021
+  place: Online
+  sub: NET
+  note: '<b>Note:</b> None'
+
+- title: SOSP
+  hindex: 44
+  year: 2021
+  id: sosp21
+  link: https://sosp2021.mpi-sws.org/
+  abstract_deadline: '2021-04-30 14:59:59'
+  deadline: '2021-05-07 14:59:59'
+  notification: August 9, 2021
+  timezone: UTC-8
+  date: October 26-28, 2021
+  place: Koblenz, Germany
+  sub: OS
+  note: '<b>Note:</b> None'
+
+- title: MobiCom-Winter
+  hindex: 44
+  year: 2021
+  id: mobicom21winter
+  link: https://www.sigmobile.org/mobicom/2021/index.html
+  abstract_deadline: '2021-03-19 23:59:59'
+  deadline: '2021-03-26 23:59:59'
+  timezone: America/New_York
+  notification: June 11, 2021
+  date: Oct 25-29 2021
+  place: Online
+  sub: MOB
+  note: '<b>Note:</b>'
+
+- title: INFOCOM
+  hindex: 44
+  year: 2021
+  id: infocom21
+  link: https://infocom2021.ieee-infocom.org/
+  abstract_deadline: '2020-08-08 23:59:59'
+  deadline: '2020-08-15 23:59:59'
+  timezone: America/New_York
+  notification: December 4, 2020
+  date: May 10-13, 2021
+  place: Online
+  sub: NET
+  note: '<b>Note:</b>'
+
+- title: ATC
+  hindex: 44
+  year: 2021
+  id: atc21
+  link: https://www.usenix.org/conference/atc21
+  abstract_deadline: '2021-01-12 23:59:59'
+  deadline: '2021-01-12 23:59:59'
+  timezone: UTC
+  notification: April 26, 2021
+  date: July 14–16, 2021
+  place: Santa Clara, CA, USA
+  sub: OS
+  note: '<b>Note:</b> Beginning of author response period: Tuesday, April 6, 2021'
