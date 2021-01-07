@@ -84,7 +84,7 @@
             <div class="row">
               <div class="col-xs-12 col-sm-6">
                 <div class="meta">
-                  <span class="conf-date">{{conf.date}}.<br>Will be held </span>
+                  <span class="conf-date">{{conf.conf_date}}.<br>Will be held </span>
                   <span class="conf-place">
                     {% if conf.place == "Online" %}
                     <i>{{conf.place}}</i>.
@@ -123,6 +123,8 @@
             <hr>
           </div>
           {% endfor %}
+        </div>
+        <div id="past_deadline_coming_confs">
         </div>
         <div id="past_confs">
         </div>
@@ -195,7 +197,7 @@
 
           // render countdown timer
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function(event) {
-            $(this).html(event.strftime('%D days %Hh %Mm %Ss'));
+            $(this).html(event.strftime('To deadline: %D days %Hh %Mm %Ss'));
           });
 
           // convert deadline to local timezone
@@ -230,9 +232,23 @@
 
           // check if date has passed, add 'past' class to it
           var today = moment();
-          diff = today.diff(confDate)
-          $('#{{conf.id}}').attr("diff", diff)
-          if (diff > 0) {
+          // first diff the conference date, the passed conference will be gray
+          {% if conf.conf_end %}
+            diff_conf = today.diff('#{{conf.conf_end}}', 'days'); //diff = today.diff(confDate)
+            console.log({{conf.conf_end}}, diff_conf);
+          {% else %}
+            diff_conf = -1;
+            // console.log("None", diff_conf);
+          {% endif %}
+          $('#{{conf.id}}').attr("diff_conf", diff_conf)
+          // then diff the deadline, for further sorting
+          diff_deadline = today.diff(confDate);
+          $('#{{conf.id}}').attr("diff_deadline", diff_deadline);
+          // > 0 means passed, <0 means to go
+          if (diff_deadline > 0 && diff_conf < 0){ // passed deadline but conference not happen
+            $('#{{conf.id}}').addClass('past_coming');
+            $('#{{conf.id}}').appendTo($("#past_deadline_coming_confs"))            
+          } else if (diff_conf > 0) { 
             $('#{{conf.id}}').addClass('past');
             $('#{{conf.id}}').appendTo($("#past_confs"))
           }
@@ -241,11 +257,15 @@
 
         // Sort coming_confs and past_confs
         $("#coming_confs .ConfItem").sort(function (a, b) {
-          return $(b).attr('diff') - $(a).attr('diff');
+          return $(b).attr('diff_deadline') - $(a).attr('diff_deadline');
         }).appendTo($("#coming_confs"));
 
+        $("#past_deadline_coming_confs .ConfItem").sort(function (a, b) {
+          return $(b).attr('diff_conf') - $(a).attr('diff_conf');
+        }).appendTo($("#past_deadline_coming_confs"));
+
         $("#past_confs .ConfItem").sort(function (a, b) {
-          return $(b).attr('diff') - $(a).attr('diff');
+          return $(b).attr('diff_conf') - $(a).attr('diff_conf');
         }).appendTo($("#past_confs"));
 
         // Get subjects from URL
