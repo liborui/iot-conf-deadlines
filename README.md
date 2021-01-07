@@ -1,12 +1,12 @@
-## IoT Conference Deadlines
+## IoT-related Conference Deadlines
 
-Countdown timers to keep track of a bunch of CV/NLP/ML/RO conference deadlines.
+Countdown timers to keep track of a bunch of Network/Mobile/IoT/Edge_Computing conference deadlines.
 
 ## Contributing
 
 Contributions are very welcome!
 
-To keep things minimal, I'm only looking to list top-tier conferences in AI as per [conferenceranks.com][6]. Feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
+To keep things minimal, I'm only looking to list top-tier conferences in Network/Mobile/IoT/Edge_Computing as per [conferenceranks.com][6] and the CCF rank. Feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
 
 To add or update a deadline:
 - Fork the repository
