@@ -8,9 +8,27 @@
   deadline: '2020-01-13 23:59:59'
   timezone: UTC-7
   notification: March 14, 2020
-  date: November 29 - December 1, 2020
+  conf_date: November 29 - December 1, 2020
+  conf_start: '2020-11-29'
+  conf_end: '2020-12-01'
   place: Online
-  sub: DIST
+  sub: IOT
+  note: '<b>Note:</b> None'
+
+- title: AAAI
+  hindex: 126
+  year: 2021
+  id: aaai21
+  link: https://icdcs2020.sg/
+  abstract_deadline: '2020-09-01 23:59:59'
+  deadline: '2020-09-09 23:59:59'
+  timezone: UTC-12
+  notification: December 1, 2020
+  conf_date: February 2-9, 2021
+  conf_start: '2021-02-02'
+  conf_end: '2021-02-09'
+  place: Online
+  sub: AI
   note: '<b>Note:</b> None'
 
 - title: ATC
@@ -22,9 +40,11 @@
   deadline: '2021-01-12 23:59:59'
   timezone: UTC
   notification: April 26, 2021
-  date: July 14–16, 2021
+  conf_date: July 14–16, 2021
+  conf_start: '2021-07-14'
+  conf_end: '2021-07-16'
   place: Santa Clara, CA, USA
-  sub: OS
+  sub: IOT
   note: '<b>Note:</b> Beginning of author response period: Tuesday, April 6, 2021'
 
 - title: ICDCS
@@ -36,11 +56,27 @@
   deadline: '2021-01-13 23:59:59'
   timezone: UTC-5
   notification: March 17, 2021
-  date: July 7 - July 10, 2021 (Tentative)
+  conf_date: July 7 - July 10, 2021 (Tentative)
+  conf_start: '2021-07-07'
+  conf_end: '2021-07-10'
   place: Washington DC, USA
-  sub: DIST
+  sub: IOT
   note: '<b>Note:</b> None'
   
+- title: SEC
+  hindex: 23
+  year: 2021
+  id: sec21winter
+  link: http://acm-ieee-sec.org/2021/
+  abstract_deadline: '2021-01-14 23:59:59'
+  deadline: '2021-01-21 23:59:59'
+  timezone: UTC-4
+  notification: April 2, 2021
+  conf_date: November-December, 2021 (Tentative)
+  place: San Jose, CA, USA
+  sub: IOT
+  note: '<b>Note:</b> This is the winter deadline for SEC21'
+
 - title: MobiSys
   hindex: 44
   year: 2021
@@ -50,9 +86,11 @@
   deadline: '2021-01-15 23:59:59'
   timezone: UTC-12
   notification: March 26, 2021
-  date: April 8-10, 2021
+  conf_date: April 8-10, 2021
+  conf_start: '2021-04-08'
+  conf_end: '2021-04-10'
   place: Online
-  sub: MOB
+  sub: IOT
   note: '<b>Note:</b>Early rejection: March 1st.'
 
 - title: SIGCOMM
@@ -64,9 +102,11 @@
   deadline: '2021-01-27 16:59:59'
   timezone: UTC-5
   notification: May 3, 2021
-  date: August 23-27, 2021
+  conf_date: August 23-27, 2021
+  conf_start: '2021-08-23'
+  conf_end: '2021-08-27'
   place: Online
-  sub: NET
+  sub: IOT
   note: '<b>Note:</b> None'
 
 - title: IWQoS
@@ -78,10 +118,28 @@
   deadline: '2021-02-22 23:59:59'
   timezone: UTC-5
   notification: April 23, 2021
-  date: June 25-28, 2021
+  conf_date: June 25-28, 2021
+  conf_start: '2021-06-25'
+  conf_end: '2021-06-25'
   place: Tokyo, Japan
-  sub: NET
+  sub: IOT
   note: '<b>Note:</b> Time zone TBD.'
+
+- title: UbiComp
+  hindex: 54
+  year: 2021
+  id: ubicomp21winter
+  link: https://ubicomp.hosting.acm.org/ubicomp2021/
+  abstract_deadline: '2021-02-15 23:59:59'
+  deadline: '2021-02-15 23:59:59'
+  timezone: UTC-5
+  notification: TBD
+  conf_date: September 12 – 17, 2021
+  conf_start: '2021-09-12'
+  conf_end: '2021-09-17'
+  place: Online
+  sub: IOT
+  note: '<b>Note:</b> Deadline and time zone TBD.'
 
 - title: SOSP
   hindex: 42
@@ -92,9 +150,11 @@
   deadline: '2021-05-07 14:59:59'
   notification: August 9, 2021
   timezone: UTC-8
-  date: October 26-28, 2021
+  conf_date: October 26-28, 2021
+  conf_start: '2021-10-26'
+  conf_end: '2021-10-28'
   place: Koblenz, Germany
-  sub: OS
+  sub: IOT
   note: '<b>Note:</b> None'
 
 - title: MobiCom
@@ -106,10 +166,26 @@
   deadline: '2021-03-26 23:59:59'
   timezone: America/New_York
   notification: June 11, 2021
-  date: Oct 25-29 2021
+  conf_date: Oct 25-29 2021
+  conf_start: '2021-10-25'
+  conf_end: '2021-10-29'
   place: Online
-  sub: MOB
+  sub: IOT
   note: '<b>Note:</b>'
+
+- title: SEC
+  hindex: 23
+  year: 2021
+  id: sec21summer
+  link: http://acm-ieee-sec.org/2021/
+  abstract_deadline: '2021-06-17 23:59:59'
+  deadline: '2021-06-24 23:59:59'
+  timezone: UTC-4
+  notification: September 3, 2021
+  conf_date: November-December, 2021 (Tentative)
+  place: San Jose, CA, USA
+  sub: IOT
+  note: '<b>Note:</b> This is the summer deadline for SEC21'
 
 - title: INFOCOM
   hindex: 72
@@ -120,9 +196,11 @@
   deadline: '2020-08-15 23:59:59'
   timezone: America/New_York
   notification: December 4, 2020
-  date: May 10-13, 2021
+  conf_date: May 10-13, 2021
+  conf_start: '2021-05-10'
+  conf_end: '2021-05-13'
   place: Online
-  sub: NET
+  sub: IOT
   note: '<b>Note:</b>'
 
 - title: HotOS
@@ -134,9 +212,11 @@
   deadline: '2021-02-03 23:59:59'
   timezone: UTC-12
   notification: TBD
-  date: May 31 - June 2, 2021
+  conf_date: May 31 - June 2, 2021
+  conf_start: '2021-05-31'
+  conf_end: '2021-06-02'
   place: Online
-  sub: OS
+  sub: IOT
   note: '<b>Note:</b> None'
 
 - title: NSDI
@@ -148,7 +228,9 @@
   deadline: '2020-09-17 23:59:59'
   timezone: UTC-4
   notification: July 2, 2020
-  date: April 12–14, 2021
+  conf_date: April 12–14, 2021
+  conf_start: '2021-04-12'
+  conf_end: '2021-04-14'
   place: Online
-  sub: NET
+  sub: IOT
   note: '<b>Note:</b> None'

@@ -1,12 +1,6 @@
 ---
-- name: Mobile Computing
-  sub: MOB
+- name: IoT-related
+  sub: IOT
 
-- name: Networking
-  sub: NET
-
-- name: System
-  sub: OS
-
-- name: Distributed System
-  sub: DIST
+- name: Artificial Intelligence
+  sub: AI
