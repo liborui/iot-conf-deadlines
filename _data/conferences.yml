@@ -36,7 +36,7 @@
   ccf: A
   year: 2021
   id: aaai21
-  link: https://icdcs2020.sg/
+  link: https://aaai.org/Conferences/AAAI-21/
   abstract_deadline: '2020-09-01 23:59:59'
   deadline: '2020-09-09 23:59:59'
   timezone: UTC-12
@@ -45,6 +45,23 @@
   conf_start: '2021-02-02'
   conf_end: '2021-02-09'
   place: Online
+  sub: AI
+  note: '<b>Note:</b> None'
+
+- title: IJCAI
+  hindex: 95
+  ccf: A
+  year: 2021
+  id: ijcai21
+  link: https://ijcai-21.org/
+  abstract_deadline: '2021-01-13 23:59:59'
+  deadline: '2021-01-20 23:59:59'
+  timezone: UTC-12
+  notification: April 30, 2021
+  conf_date: August 21-26, 2021
+  conf_start: '2021-08-21'
+  conf_end: '2021-08-26'
+  place: Montreal, Canada
   sub: AI
   note: '<b>Note:</b> None'
 
