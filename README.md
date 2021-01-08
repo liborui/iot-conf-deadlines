@@ -12,6 +12,7 @@ English version [see](README-EN.md).
 - Fork这个仓库.
 - 在自己的Fork里更新`_data/conferences.yml`.
     + 必填项：`title`（会议简称）, `year`（年份）, `id`（一般为小写）, `link`（会议主页链接）, `deadline`（截止日期）, `timezone`（截止日期的时区）, `conf_date`（会议日期，字符串）, `conf_start`（会议开始日期）, `conf_end`（会议结束日期）, `place`（字符串，在线会议填写Online）, `sub`（分类）.
+      + 如果会议开始/结束日期未确定，可暂时将`conf_start`, `conf_end`留空，`conf_date`填写`TBD`.
       + `sub`可以从`_data/types.yml`找到.
       + `timezone`可以填写如`UTC+10`或`America/New_York`格式, 具体参见[这里](https://momentjs.com/timezone/).
     + 选填项：`ccf`（会议CCF级别）, `note`（备注）, `abstract_deadline`（如有）, `hindex`（会议的h5-index）.
