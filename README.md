@@ -1,24 +1,24 @@
 ## IoT-related Conference Deadlines
 
-Countdown timers to keep track of a bunch of Network/Mobile/IoT/Edge_Computing conference deadlines.
+追踪网络、移动计算、物联网、边缘计算相关会议的deadline.
 
-## Contributing
+English version [see](README-EN.md).
 
-Contributions are very welcome!
+## 如何添加一个新的会议deadline?
 
-To keep things minimal, I'm only looking to list top-tier conferences in Network/Mobile/IoT/Edge_Computing as per [conferenceranks.com][6] and the CCF rank. Feel free to maintain a separate fork if you don't see your sub-field or conference of interest listed.
+非常欢迎各位的更新！
 
-To add or update a deadline:
-- Fork the repository
-- Update `_data/conferences.yml`
-- Make sure it has the `title`, `year`, `id`, `link`, `deadline`, `timezone`, `date`, `place`, `sub` attributes
-    + See available timezone strings [here](https://momentjs.com/timezone/).
-    + You can find the `hindex` data (h5 index) via [here](https://www.guide2research.com/topconf/).
-- Optionally add a `note` and `abstract_deadline` in case the conference has a separate mandatory abstract deadline
-- Send a pull request
+更新方法：
+- Fork这个仓库
+- 在自己的Fork里更新`_data/conferences.yml`
+    + 必填项：`title`（会议简称）, `year`（年份）, `id`（一般为小写）, `link`（会议主页链接）, `deadline`（截止日期）, `timezone`（截止日期的时区）, `conf_date`（会议日期，字符串）, `conf_start`（会议开始日期）, `conf_end`（会议结束日期）, `place`（字符串，在线会议填写Online）, `sub`（分类）
+      + `sub`可以从`_data/types.yml`找到
+      + `timezone`可以填写如`UTC+10`或`America/New_York`格式, 具体参见[这里](https://momentjs.com/timezone/)
+    + 选填项：`ccf`（会议CCF级别）, `note`（备注）, `abstract_deadline`（如有）, `hindex`（会议的h5-index）
+      + 会议的`hindex`可以在[这里](https://www.guide2research.com/topconf/)找到
+- 发送一个pull request
 
-## Forks & other useful listings
-
+## 致谢
 
 - [geodeadlin.es][3] by @LukasMosser
 - [neuro-deadlines][4] by @tbryn
