@@ -84,12 +84,22 @@
             <div class="row">
               <div class="col-xs-12 col-sm-6">
                 <div class="meta">
-                  <span class="conf-date">{{conf.conf_date}}.<br>Will be held </span>
+                  <span class="conf-date">Date: {{conf.conf_date}}. </span>
                   <span class="conf-place">
+                    Location:
                     {% if conf.place == "Online" %}
                     <i>{{conf.place}}</i>.
                     {% else %}
                     at <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+                    {% endif %}
+                    <br>
+                  </span>
+                  <span class="conf-data">
+                    {% if conf.ccf %}
+                    CCF-rank <b>{{conf.ccf}}</b>. 
+                    {% endif %}
+                    {% if conf.hindex %}
+                    H5-index <b>{{conf.hindex}}</b>.
                     {% endif %}
                   </span>
                 </div>

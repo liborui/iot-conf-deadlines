@@ -1,6 +1,7 @@
 ---
 - title: SECON
   hindex: 22
+  ccf: B
   year: 2021
   id: secon21
   link: https://secon2021.ieee-secon.org/
@@ -8,13 +9,14 @@
   deadline: '2020-02-15 23:59:59'
   timezone: UTC-7
   notification: April 17, 2021
-  date: July, 2021
+  conf_date: July, 2021
   place: Rome, Italy
-  sub: NET
+  sub: IOT
   note: '<b>Note:</b> Time zone TBD; preliminary CFP'
   
 - title: ICDCS
   hindex: 39
+  ccf: B
   year: 2020
   id: icdcs20
   link: https://icdcs2020.sg/
@@ -31,6 +33,7 @@
 
 - title: AAAI
   hindex: 126
+  ccf: A
   year: 2021
   id: aaai21
   link: https://icdcs2020.sg/
@@ -47,6 +50,7 @@
 
 - title: ATC
   hindex: 45
+  ccf: A
   year: 2021
   id: atc21
   link: https://www.usenix.org/conference/atc21
@@ -63,6 +67,7 @@
 
 - title: ICDCS
   hindex: 39
+  ccf: B
   year: 2021
   id: icdcs21
   link: https://icdcs2021.us/
@@ -79,6 +84,7 @@
   
 - title: SEC
   hindex: 23
+  ccf: None
   year: 2021
   id: sec21winter
   link: http://acm-ieee-sec.org/2021/
@@ -93,6 +99,7 @@
 
 - title: MobiSys
   hindex: 44
+  ccf: B
   year: 2021
   id: mobisys21
   link: https://www.sigmobile.org/mobisys/2021/index.html
@@ -109,6 +116,7 @@
 
 - title: SIGCOMM
   hindex: 65
+  ccf: A
   year: 2021
   id: sigcomm21
   link: https://conferences.sigcomm.org/sigcomm/2021/
@@ -125,6 +133,7 @@
 
 - title: IWQoS
   hindex: 17
+  ccf: B
   year: 2021
   id: iwqos21
   link: https://iwqos2021.ieee-iwqos.org/
@@ -141,6 +150,7 @@
 
 - title: UbiComp
   hindex: 54
+  ccf: A
   year: 2021
   id: ubicomp21winter
   link: https://ubicomp.hosting.acm.org/ubicomp2021/
@@ -157,6 +167,7 @@
 
 - title: SOSP
   hindex: 42
+  ccf: A
   year: 2021
   id: sosp21
   link: https://sosp2021.mpi-sws.org/
@@ -173,6 +184,7 @@
 
 - title: MobiCom
   hindex: 48
+  ccf: A
   year: 2021
   id: mobicom21winter
   link: https://www.sigmobile.org/mobicom/2021/index.html
@@ -189,6 +201,7 @@
 
 - title: SEC
   hindex: 23
+  ccf: None
   year: 2021
   id: sec21summer
   link: http://acm-ieee-sec.org/2021/
@@ -203,6 +216,7 @@
 
 - title: INFOCOM
   hindex: 72
+  ccf: A
   year: 2021
   id: infocom21
   link: https://infocom2021.ieee-infocom.org/
@@ -218,7 +232,6 @@
   note: '<b>Note:</b>'
 
 - title: HotOS
-  hindex: /
   year: 2021
   id: hotos21
   link: https://sigops.org/s/conferences/hotos/2021/
@@ -235,6 +248,7 @@
 
 - title: NSDI
   hindex: 65
+  ccf: A
   year: 2021
   id: nsdi21fall
   link: https://www.usenix.org/conference/nsdi21
