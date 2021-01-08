@@ -1,4 +1,18 @@
 ---
+- title: SECON
+  hindex: 22
+  year: 2021
+  id: secon21
+  link: https://secon2021.ieee-secon.org/
+  abstract_deadline: '2020-02-08 23:59:59'
+  deadline: '2020-02-15 23:59:59'
+  timezone: UTC-7
+  notification: April 17, 2021
+  date: July, 2021
+  place: Rome, Italy
+  sub: NET
+  note: '<b>Note:</b> Time zone TBD; preliminary CFP'
+  
 - title: ICDCS
   hindex: 39
   ccf: B
