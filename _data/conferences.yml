@@ -231,6 +231,22 @@
   sub: IOT
   note: '<b>Note:</b> This is the summer deadline for SEC21'
 
+- title: ICC
+  hindex: 67
+  ccf: C
+  year: 2021
+  id: icc21
+  link: https://icc2021.ieee-icc.org/
+  deadline: '2020-10-30 23:59:59'
+  timezone: UTC-4
+  notification: January 25, 2021
+  conf_date: 14-24 June 2021
+  conf_start: '2021-06-14'
+  conf_end: '2021-06-24'
+  place: Online
+  sub: IOT
+  note: '<b>Note:</b>'
+
 - title: INFOCOM
   hindex: 72
   ccf: A
