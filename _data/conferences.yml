@@ -247,6 +247,39 @@
   sub: IOT
   note: '<b>Note:</b>'
 
+- title: RTSS
+  hindex: 21
+  ccf: A
+  year: 2021
+  id: rtss21
+  link: http://2021.rtss.org/
+  deadline: '2021-05-25 23:59:59'
+  timezone: UTC-12
+  notification: August 6, 2021
+  conf_date: 8-10 December 2021
+  conf_start: '2021-12-08'
+  conf_end: '2021-12-10'
+  place: Online
+  sub: IOT
+  note: '<b>Note:</b>'
+
+- title: SIGMETRICS
+  hindex: 21
+  ccf: B
+  year: 2021
+  id: sigmetrics21winter
+  link: https://www.sigmetrics.org/sigmetrics2021/
+  abstract_deadline: '2021-01-29 11:59:59'
+  deadline: '2021-02-05 11:59:59'
+  timezone: UTC-5
+  notification: March 30, 2021
+  conf_date: June 14-18, 2021
+  conf_start: '2021-06-14'
+  conf_end: '2021-06-18'
+  place: Beijing, China
+  sub: IOT
+  note: '<b>Note: This is the winter deadline of SIGMETRICS 2021</b>'
+
 - title: INFOCOM
   hindex: 72
   ccf: A
