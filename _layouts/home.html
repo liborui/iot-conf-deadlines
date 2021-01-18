@@ -249,7 +249,7 @@
           // first diff the conference date, the passed conference will be gray
           {% if conf.conf_end %}
             diff_conf = today.diff('#{{conf.conf_end}}', 'days'); //diff = today.diff(confDate)
-            console.log({{conf.conf_end}}, diff_conf);
+            // console.log({{conf.conf_end}}, diff_conf);
           {% else %}
             diff_conf = -1;
             // console.log("None", diff_conf);
