@@ -86,7 +86,7 @@
                 <div class="meta">
                   <span class="conf-date">Date: {{conf.conf_date}}. </span>
                   <span class="conf-place">
-                    Location:
+                    <b>Location:</b>
                     {% if conf.place == "Online" %}
                     <i>{{conf.place}}</i>.
                     {% else %}
@@ -96,10 +96,10 @@
                   </span>
                   <span class="conf-data">
                     {% if conf.ccf %}
-                    CCF-rank <b>{{conf.ccf}}</b>. 
+                    <b>CCF-rank</b> {{conf.ccf}}. 
                     {% endif %}
                     {% if conf.hindex %}
-                    H5-index <b>{{conf.hindex}}</b>.
+                    <b>H5-index</b> {{conf.hindex}}.
                     {% endif %}
                   </span>
                 </div>
@@ -111,13 +111,13 @@
               </div>
               <div class="col-xs-12 col-sm-6">
                 <div class="deadline">
-                  <div>Deadline:
+                  <div><b>Deadline:</b>
                     <span class="deadline-time"></span>
                   </div>
                 </div>
                 {% if conf.notification %}
                 <div class="notification">
-                  Notification: {{conf.notification}}
+                    <b>Notification</b>: {{conf.notification}}
                 </div>
                 {% endif %}
                 <div class="calendar"></div>
