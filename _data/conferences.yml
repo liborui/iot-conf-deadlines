@@ -12,7 +12,7 @@
   conf_date: July, 2021
   place: Rome, Italy
   sub: IOT
-  note: '<b>Note:</b> Time zone TBD; preliminary CFP'
+  note: Time zone TBD; preliminary CFP'
   
 - title: ICDCS
   hindex: 39
@@ -29,7 +29,7 @@
   conf_end: '2020-12-01'
   place: Online
   sub: IOT
-  note: '<b>Note:</b> None'
+  
 
 - title: AAAI
   hindex: 126
@@ -46,7 +46,7 @@
   conf_end: '2021-02-09'
   place: Online
   sub: AI
-  note: '<b>Note:</b> None'
+  
 
 - title: IJCAI
   hindex: 95
@@ -63,7 +63,7 @@
   conf_end: '2021-08-26'
   place: Montreal, Canada
   sub: AI
-  note: '<b>Note:</b> None'
+  
 
 - title: ATC
   hindex: 45
@@ -80,7 +80,7 @@
   conf_end: '2021-07-16'
   place: Santa Clara, CA, USA
   sub: IOT
-  note: '<b>Note:</b> Beginning of author response period: Tuesday, April 6, 2021'
+  note: 'Beginning of author response period: Tuesday, April 6, 2021'
 
 - title: ICDCS
   hindex: 39
@@ -97,11 +97,11 @@
   conf_end: '2021-07-10'
   place: Washington DC, USA
   sub: IOT
-  note: '<b>Note:</b> None'
+  
   
 - title: SEC
   hindex: 23
-  ccf: None
+  ccf:None
   year: 2021
   id: sec21winter
   link: http://acm-ieee-sec.org/2021/
@@ -112,7 +112,7 @@
   conf_date: November-December, 2021 (Tentative)
   place: San Jose, CA, USA
   sub: IOT
-  note: '<b>Note:</b> This is the winter deadline for SEC21'
+  note: 'This is the winter deadline for SEC21'
 
 - title: MobiSys
   hindex: 44
@@ -129,7 +129,7 @@
   conf_end: '2021-04-10'
   place: Online
   sub: IOT
-  note: '<b>Note:</b>Early rejection: March 1st.'
+  note: 'Early rejection: March 1st.'
 
 - title: SIGCOMM
   hindex: 65
@@ -146,7 +146,7 @@
   conf_end: '2021-08-27'
   place: Online
   sub: IOT
-  note: '<b>Note:</b> None'
+  
 
 - title: IWQoS
   hindex: 17
@@ -163,7 +163,7 @@
   conf_end: '2021-06-25'
   place: Tokyo, Japan
   sub: IOT
-  note: '<b>Note:</b> Time zone TBD.'
+  note: 'Time zone TBD.'
 
 - title: UbiComp
   hindex: 54
@@ -180,7 +180,7 @@
   conf_end: '2021-09-17'
   place: Online
   sub: IOT
-  note: '<b>Note:</b> Deadline and time zone TBD.'
+  note: 'Deadline and time zone TBD.'
 
 - title: SOSP
   hindex: 42
@@ -197,7 +197,7 @@
   conf_end: '2021-10-28'
   place: Koblenz, Germany
   sub: IOT
-  note: '<b>Note:</b> None'
+  
 
 - title: MobiCom
   hindex: 48
@@ -214,11 +214,11 @@
   conf_end: '2021-10-29'
   place: Online
   sub: IOT
-  note: '<b>Note:</b>'
+  
 
 - title: SEC
   hindex: 23
-  ccf: None
+  ccf:None
   year: 2021
   id: sec21summer
   link: http://acm-ieee-sec.org/2021/
@@ -229,7 +229,7 @@
   conf_date: November-December, 2021 (Tentative)
   place: San Jose, CA, USA
   sub: IOT
-  note: '<b>Note:</b> This is the summer deadline for SEC21'
+  note: 'This is the summer deadline for SEC21'
 
 - title: ICC
   hindex: 67
@@ -245,7 +245,7 @@
   conf_end: '2021-06-24'
   place: Online
   sub: IOT
-  note: '<b>Note:</b>'
+  
 
 - title: RTSS
   hindex: 21
@@ -261,7 +261,7 @@
   conf_end: '2021-12-10'
   place: Online
   sub: IOT
-  note: '<b>Note:</b>'
+
 
 - title: SIGMETRICS
   hindex: 21
@@ -278,7 +278,7 @@
   conf_end: '2021-06-18'
   place: Beijing, China
   sub: IOT
-  note: '<b>Note: This is the winter deadline of SIGMETRICS 2021</b>'
+  note: 'This is the winter deadline of SIGMETRICS 2021'
 
 - title: INFOCOM
   hindex: 72
@@ -295,7 +295,6 @@
   conf_end: '2021-05-13'
   place: Online
   sub: IOT
-  note: '<b>Note:</b>'
 
 - title: HotOS
   year: 2021
@@ -310,7 +309,7 @@
   conf_end: '2021-06-02'
   place: Online
   sub: IOT
-  note: '<b>Note:</b> None'
+  
 
 - title: NSDI
   hindex: 65
@@ -327,4 +326,4 @@
   conf_end: '2021-04-14'
   place: Online
   sub: IOT
-  note: '<b>Note:</b> None'
+  
