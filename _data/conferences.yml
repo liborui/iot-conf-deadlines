@@ -101,7 +101,7 @@
   
 - title: SEC
   hindex: 23
-  ccf:None
+  ccf: None
   year: 2021
   id: sec21winter
   link: http://acm-ieee-sec.org/2021/
@@ -218,7 +218,7 @@
 
 - title: SEC
   hindex: 23
-  ccf:None
+  ccf: None
   year: 2021
   id: sec21summer
   link: http://acm-ieee-sec.org/2021/
