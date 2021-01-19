@@ -12,7 +12,7 @@
   conf_date: July, 2021
   place: Rome, Italy
   sub: IOT
-  note: '<b>Note:</b> Time zone TBD; preliminary CFP'
+  note: Time zone TBD; preliminary CFP'
   
 - title: ICDCS
   hindex: 39
@@ -29,14 +29,14 @@
   conf_end: '2020-12-01'
   place: Online
   sub: IOT
-  note: '<b>Note:</b> None'
+  
 
 - title: AAAI
   hindex: 126
   ccf: A
   year: 2021
   id: aaai21
-  link: https://icdcs2020.sg/
+  link: https://aaai.org/Conferences/AAAI-21/
   abstract_deadline: '2020-09-01 23:59:59'
   deadline: '2020-09-09 23:59:59'
   timezone: UTC-12
@@ -46,7 +46,24 @@
   conf_end: '2021-02-09'
   place: Online
   sub: AI
-  note: '<b>Note:</b> None'
+  
+
+- title: IJCAI
+  hindex: 95
+  ccf: A
+  year: 2021
+  id: ijcai21
+  link: https://ijcai-21.org/
+  abstract_deadline: '2021-01-13 23:59:59'
+  deadline: '2021-01-20 23:59:59'
+  timezone: UTC-12
+  notification: April 30, 2021
+  conf_date: August 21-26, 2021
+  conf_start: '2021-08-21'
+  conf_end: '2021-08-26'
+  place: Montreal, Canada
+  sub: AI
+  
 
 - title: ATC
   hindex: 45
@@ -63,7 +80,7 @@
   conf_end: '2021-07-16'
   place: Santa Clara, CA, USA
   sub: IOT
-  note: '<b>Note:</b> Beginning of author response period: Tuesday, April 6, 2021'
+  note: 'Beginning of author response period: Tuesday, April 6, 2021'
 
 - title: ICDCS
   hindex: 39
@@ -80,7 +97,7 @@
   conf_end: '2021-07-10'
   place: Washington DC, USA
   sub: IOT
-  note: '<b>Note:</b> None'
+  
   
 - title: SEC
   hindex: 23
@@ -95,7 +112,7 @@
   conf_date: November-December, 2021 (Tentative)
   place: San Jose, CA, USA
   sub: IOT
-  note: '<b>Note:</b> This is the winter deadline for SEC21'
+  note: 'This is the winter deadline for SEC21'
 
 - title: MobiSys
   hindex: 44
@@ -112,7 +129,7 @@
   conf_end: '2021-04-10'
   place: Online
   sub: IOT
-  note: '<b>Note:</b>Early rejection: March 1st.'
+  note: 'Early rejection: March 1st.'
 
 - title: SIGCOMM
   hindex: 65
@@ -129,7 +146,7 @@
   conf_end: '2021-08-27'
   place: Online
   sub: IOT
-  note: '<b>Note:</b> None'
+  
 
 - title: IWQoS
   hindex: 17
@@ -146,7 +163,7 @@
   conf_end: '2021-06-25'
   place: Tokyo, Japan
   sub: IOT
-  note: '<b>Note:</b> Time zone TBD.'
+  note: 'Time zone TBD.'
 
 - title: UbiComp
   hindex: 54
@@ -163,7 +180,7 @@
   conf_end: '2021-09-17'
   place: Online
   sub: IOT
-  note: '<b>Note:</b> Deadline and time zone TBD.'
+  note: 'Deadline and time zone TBD.'
 
 - title: SOSP
   hindex: 42
@@ -180,7 +197,7 @@
   conf_end: '2021-10-28'
   place: Koblenz, Germany
   sub: IOT
-  note: '<b>Note:</b> None'
+  
 
 - title: MobiCom
   hindex: 48
@@ -197,7 +214,7 @@
   conf_end: '2021-10-29'
   place: Online
   sub: IOT
-  note: '<b>Note:</b>'
+  
 
 - title: SEC
   hindex: 23
@@ -212,7 +229,56 @@
   conf_date: November-December, 2021 (Tentative)
   place: San Jose, CA, USA
   sub: IOT
-  note: '<b>Note:</b> This is the summer deadline for SEC21'
+  note: 'This is the summer deadline for SEC21'
+
+- title: ICC
+  hindex: 67
+  ccf: C
+  year: 2021
+  id: icc21
+  link: https://icc2021.ieee-icc.org/
+  deadline: '2020-10-30 23:59:59'
+  timezone: UTC-4
+  notification: January 25, 2021
+  conf_date: 14-24 June 2021
+  conf_start: '2021-06-14'
+  conf_end: '2021-06-24'
+  place: Online
+  sub: IOT
+  
+
+- title: RTSS
+  hindex: 21
+  ccf: A
+  year: 2021
+  id: rtss21
+  link: http://2021.rtss.org/
+  deadline: '2021-05-25 23:59:59'
+  timezone: UTC-12
+  notification: August 6, 2021
+  conf_date: 8-10 December 2021
+  conf_start: '2021-12-08'
+  conf_end: '2021-12-10'
+  place: Online
+  sub: IOT
+
+
+- title: SIGMETRICS
+  hindex: 21
+  ccf: B
+  year: 2021
+  id: sigmetrics21winter
+  link: https://www.sigmetrics.org/sigmetrics2021/
+  abstract_deadline: '2021-01-29 11:59:59'
+  deadline: '2021-02-05 11:59:59'
+  timezone: UTC-5
+  notification: March 30, 2021
+  conf_date: June 14-18, 2021
+  conf_start: '2021-06-14'
+  conf_end: '2021-06-18'
+  place: Beijing, China
+  sub: IOT
+  note: 'This is the winter deadline of SIGMETRICS 2021'
 
 - title: INFOCOM
   hindex: 72
@@ -229,7 +295,6 @@
   conf_end: '2021-05-13'
   place: Online
   sub: IOT
-  note: '<b>Note:</b>'
 
 - title: HotOS
   year: 2021
@@ -244,7 +309,7 @@
   conf_end: '2021-06-02'
   place: Online
   sub: IOT
-  note: '<b>Note:</b> None'
+  
 
 - title: NSDI
   hindex: 65
@@ -261,4 +326,4 @@
   conf_end: '2021-04-14'
   place: Online
   sub: IOT
-  note: '<b>Note:</b> None'
+  

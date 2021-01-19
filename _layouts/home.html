@@ -84,40 +84,44 @@
             <div class="row">
               <div class="col-xs-12 col-sm-6">
                 <div class="meta">
-                  <span class="conf-date">Date: {{conf.conf_date}}. </span>
+                  <span class="conf-date"><b>Date:</b> {{conf.conf_date}}. </span>
                   <span class="conf-place">
-                    Location:
+                    <b>Location:</b>
                     {% if conf.place == "Online" %}
                     <i>{{conf.place}}</i>.
                     {% else %}
-                    at <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
+                    <a href="http://maps.google.com/?q={{conf.place}}">{{conf.place}}</a>.
                     {% endif %}
                     <br>
                   </span>
                   <span class="conf-data">
                     {% if conf.ccf %}
-                    CCF-rank <b>{{conf.ccf}}</b>. 
+                    <b>CCF-rank</b> {{conf.ccf}}. 
                     {% endif %}
                     {% if conf.hindex %}
-                    H5-index <b>{{conf.hindex}}</b>.
+                    <b>H5-index</b> {{conf.hindex}}.
                     {% endif %}
                   </span>
                 </div>
                 {% if conf.note %}
                 <div class="note">
-                  {{conf.note}}
+                  <b>Note:</b> {{conf.note}}
                 </div>
+                {% else %}
+                 <div class="note">
+                    <b>Note:</b> None
+                  </div>                
                 {% endif %}
               </div>
               <div class="col-xs-12 col-sm-6">
                 <div class="deadline">
-                  <div>Deadline:
+                  <div><b>Deadline:</b>
                     <span class="deadline-time"></span>
                   </div>
                 </div>
                 {% if conf.notification %}
                 <div class="notification">
-                  Notification: {{conf.notification}}
+                    <b>Notification</b>: {{conf.notification}}
                 </div>
                 {% endif %}
                 <div class="calendar"></div>
@@ -244,8 +248,8 @@
           var today = moment();
           // first diff the conference date, the passed conference will be gray
           {% if conf.conf_end %}
-            diff_conf = today.diff('#{{conf.conf_end}}', 'days'); //diff = today.diff(confDate)
-            console.log({{conf.conf_end}}, diff_conf);
+            diff_conf = today.diff('{{conf.conf_end}}', 'days'); //diff = today.diff(confDate)
+            // console.log({{conf.conf_end}}, diff_conf);
           {% else %}
             diff_conf = -1;
             // console.log("None", diff_conf);
