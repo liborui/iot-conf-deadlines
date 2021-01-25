@@ -14,6 +14,7 @@
   sub: IOT
   note: 'Time zone TBD'
 
+
 - title: SECON
   hindex: 22
   ccf: B
@@ -29,6 +30,7 @@
   sub: IOT
   note: Time zone TBD; preliminary CFP'
   
+
 - title: ICDCS
   hindex: 39
   ccf: B
@@ -97,6 +99,7 @@
   sub: IOT
   note: 'Beginning of author response period: Tuesday, April 6, 2021'
 
+
 - title: ICDCS
   hindex: 39
   ccf: B
@@ -113,6 +116,7 @@
   place: Washington DC, USA
   sub: IOT
   
+
 - title: SEC
   hindex: 23
   ccf: None
@@ -127,6 +131,7 @@
   place: San Jose, CA, USA
   sub: IOT
   note: 'This is the winter deadline for SEC21'
+
 
 - title: MobiSys
   hindex: 44
@@ -144,6 +149,7 @@
   place: Online
   sub: IOT
   note: 'Early rejection: March 1st.'
+
 
 - title: SIGCOMM
   hindex: 65
@@ -179,6 +185,7 @@
   sub: IOT
   note: 'Time zone TBD.'
 
+
 - title: UbiComp
   hindex: 54
   ccf: A
@@ -195,6 +202,7 @@
   place: Online
   sub: IOT
   note: 'Deadline and time zone TBD.'
+
 
 - title: SOSP
   hindex: 42
@@ -245,6 +253,7 @@
   sub: IOT
   note: 'This is the summer deadline for SEC21'
 
+
 - title: ICC
   hindex: 67
   ccf: C
@@ -294,6 +303,7 @@
   sub: IOT
   note: 'This is the winter deadline of SIGMETRICS 2021'
 
+
 - title: INFOCOM
   hindex: 72
   ccf: A
@@ -310,9 +320,11 @@
   place: Online
   sub: IOT
 
+
 - title: HotOS
   year: 2021
   id: hotos21
+  ccf: B
   link: https://sigops.org/s/conferences/hotos/2021/
   abstract_deadline: '2021-02-03 23:59:59'
   deadline: '2021-02-03 23:59:59'
