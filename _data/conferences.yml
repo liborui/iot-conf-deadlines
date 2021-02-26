@@ -1,7 +1,26 @@
 ---
+<<<<<<< HEAD
 # Sort by deadline
 
 ### deadline in January
+=======
+- title: NOSSDAV
+  hindex: 5
+  ccf: B
+  year: 2021
+  id: nossdav21spring
+  link: https://nossdav.org/2021/
+  abstract_deadline: '2021-03-05 23:59:59'
+  deadline: '2021-03-08 23:59:59'
+  timezone: UTC-7
+  notification: April 9, 2021
+  conf_date: September, 2021
+  place: Istanbul, Turkey
+  sub: IOT
+  note: 'Time zone TBD'
+
+
+>>>>>>> 6c53dbf611a0372a93d7cb25aad07407452086f9
 - title: SECON
   hindex: 22
   ccf: B
@@ -18,6 +37,7 @@
   place: Online
   sub: IOT
   
+
 - title: ICDCS
   hindex: 39
   ccf: B
@@ -99,6 +119,27 @@
   sub: IOT
   note: 'Beginning of author response period: Tuesday, April 6, 2021'
 
+<<<<<<< HEAD
+=======
+
+- title: ICDCS
+  hindex: 39
+  ccf: B
+  year: 2021
+  id: icdcs21
+  link: https://icdcs2021.us/
+  abstract_deadline: '2021-01-06 23:59:59'
+  deadline: '2021-01-13 23:59:59'
+  timezone: UTC-5
+  notification: March 17, 2021
+  conf_date: July 7 - July 10, 2021 (Tentative)
+  conf_start: '2021-07-07'
+  conf_end: '2021-07-10'
+  place: Washington DC, USA
+  sub: IOT
+  
+
+>>>>>>> 6c53dbf611a0372a93d7cb25aad07407452086f9
 - title: SEC
   hindex: 23
   ccf: None
@@ -113,6 +154,7 @@
   place: San Jose, CA, USA
   sub: IOT
   note: 'This is the winter deadline for SEC21'
+
 
 - title: MobiSys
   hindex: 44
@@ -130,6 +172,7 @@
   place: Online
   sub: IOT
   note: 'Early rejection: March 1st.'
+
 
 - title: SIGCOMM
   hindex: 65
@@ -164,6 +207,7 @@
   sub: IOT
   note: 'Time zone TBD.'
 
+
 - title: UbiComp
   hindex: 54
   ccf: A
@@ -180,6 +224,7 @@
   place: Online
   sub: IOT
   note: 'Deadline and time zone TBD.'
+
 
 - title: SOSP
   hindex: 42
@@ -228,6 +273,7 @@
   sub: IOT
   note: 'This is the summer deadline for SEC21'
 
+
 - title: ICC
   hindex: 67
   ccf: C
@@ -275,6 +321,7 @@
   sub: IOT
   note: 'This is the winter deadline of SIGMETRICS 2021'
 
+
 - title: INFOCOM
   hindex: 72
   ccf: A
@@ -291,9 +338,11 @@
   place: Online
   sub: IOT
 
+
 - title: HotOS
   year: 2021
   id: hotos21
+  ccf: B
   link: https://sigops.org/s/conferences/hotos/2021/
   abstract_deadline: '2021-02-03 23:59:59'
   deadline: '2021-02-03 23:59:59'
@@ -321,6 +370,7 @@
   place: Online
   sub: IOT
   
+<<<<<<< HEAD
 - title: OSDI
   hindex: 35
   ccf: A
@@ -388,3 +438,5 @@
   place: Dallas, Texas, USA
   sub: IOT
   note: Camera ready version by	August 24, 2021
+=======
+>>>>>>> 6c53dbf611a0372a93d7cb25aad07407452086f9
