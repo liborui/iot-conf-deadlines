@@ -1,4 +1,7 @@
 ---
+# Sort by deadline
+
+### deadline in January
 - title: SECON
   hindex: 22
   ccf: B
@@ -6,13 +9,14 @@
   id: secon21
   link: https://secon2021.ieee-secon.org/
   abstract_deadline: '2021-02-08 23:59:59'
-  deadline: '2021-02-15 23:59:59'
-  timezone: UTC-7
+  deadline: '2021-02-22 23:59:59'
+  timezone: UTC-12
   notification: April 17, 2021
-  conf_date: July, 2021
-  place: Rome, Italy
+  conf_date: July 6-9, 2021
+  conf_start: '2021-07-06'
+  conf_end: '2021-07-09'
+  place: Online
   sub: IOT
-  note: Time zone TBD; preliminary CFP'
   
 - title: ICDCS
   hindex: 39
@@ -30,7 +34,22 @@
   place: Online
   sub: IOT
   
-
+- title: ICDCS
+  hindex: 39
+  ccf: B
+  year: 2021
+  id: icdcs21
+  link: https://icdcs2021.us/
+  abstract_deadline: '2021-01-06 23:59:59'
+  deadline: '2021-01-13 23:59:59'
+  timezone: UTC-5
+  notification: March 17, 2021
+  conf_date: July 7 - July 10, 2021 (Tentative)
+  conf_start: '2021-07-07'
+  conf_end: '2021-07-10'
+  place: Washington DC, USA
+  sub: IOT
+  
 - title: AAAI
   hindex: 126
   ccf: A
@@ -47,7 +66,6 @@
   place: Online
   sub: AI
   
-
 - title: IJCAI
   hindex: 95
   ccf: A
@@ -64,7 +82,6 @@
   place: Montreal, Canada
   sub: AI
   
-
 - title: ATC
   hindex: 45
   ccf: A
@@ -82,23 +99,6 @@
   sub: IOT
   note: 'Beginning of author response period: Tuesday, April 6, 2021'
 
-- title: ICDCS
-  hindex: 39
-  ccf: B
-  year: 2021
-  id: icdcs21
-  link: https://icdcs2021.us/
-  abstract_deadline: '2021-01-06 23:59:59'
-  deadline: '2021-01-13 23:59:59'
-  timezone: UTC-5
-  notification: March 17, 2021
-  conf_date: July 7 - July 10, 2021 (Tentative)
-  conf_start: '2021-07-07'
-  conf_end: '2021-07-10'
-  place: Washington DC, USA
-  sub: IOT
-  
-  
 - title: SEC
   hindex: 23
   ccf: None
@@ -147,7 +147,6 @@
   place: Online
   sub: IOT
   
-
 - title: IWQoS
   hindex: 17
   ccf: B
@@ -198,7 +197,6 @@
   place: Koblenz, Germany
   sub: IOT
   
-
 - title: MobiCom
   hindex: 48
   ccf: A
@@ -215,7 +213,6 @@
   place: Online
   sub: IOT
   
-
 - title: SEC
   hindex: 23
   ccf: None
@@ -246,7 +243,6 @@
   place: Online
   sub: IOT
   
-
 - title: RTSS
   hindex: 21
   ccf: A
@@ -261,7 +257,6 @@
   conf_end: '2021-12-10'
   place: Online
   sub: IOT
-
 
 - title: SIGMETRICS
   hindex: 21
@@ -310,7 +305,6 @@
   place: Online
   sub: IOT
   
-
 - title: NSDI
   hindex: 65
   ccf: A
@@ -327,3 +321,70 @@
   place: Online
   sub: IOT
   
+- title: OSDI
+  hindex: 35
+  ccf: A
+  year: 2021
+  id: osdi21
+  link: https://www.usenix.org/conference/osdi21
+  abstract_deadline: '2020-12-03 14:59:59'
+  deadline: '2020-12-10 14:59:59'
+  notification: March 16, 2021
+  timezone: UTC-8
+  conf_date: July 14-16, 2021
+  conf_start: '2021-07-14'
+  conf_end: '2021-07-16'
+  place: SANTA CLARA, CA, USA
+  sub: IOT
+  note: Reviews available by Wednesday, March 3, 2021
+
+- title: CODES+ISSS
+  hindex: 17
+  ccf: B
+  year: 2021
+  id: codesisss21
+  link: https://esweek.org/codes-isss/
+  abstract_deadline: '2021-04-02 23:59:59'
+  deadline: '2021-04-09 23:59:59'
+  timezone: UTC-12
+  notification: July 5, 2021
+  conf_date: Oct. 14-16, 2021
+  conf_start: '2021-10-10'
+  conf_end: '2021-10-15'
+  place: Online
+  sub: IOT
+  note: WiP submission deadline is June 4, 2021
+
+- title: SenSys
+  hindex: 37
+  ccf: B
+  year: 2021
+  id: sensys21
+  link: https://sensys2021.dei.uc.pt/
+  abstract_deadline: '2021-05-28 23:59:59'
+  deadline: '2021-06-04 23:59:59'
+  timezone: UTC-12
+  notification: Sept. 8, 2021
+  conf_date: Nov. , 2021
+  conf_start: '2021-11-10'
+  conf_end: '2021-11-15'
+  place: Coimbra, Portugal
+  sub: IOT
+  note: Conf. start TBD. Camera Ready Due by October 1,st 2021
+
+- title: ICNP
+  hindex: 23
+  ccf: B
+  year: 2021
+  id: icnp21
+  link: https://icnp21.cs.ucr.edu/
+  abstract_deadline: '2021-05-17 19:59:59'
+  deadline: '2021-05-24 19:59:59'
+  timezone: UTC-5
+  notification: Aug. 3, 2021
+  conf_date: Nov. 2-5, 2021
+  conf_start: '2021-11-02'
+  conf_end: '2021-11-05'
+  place: Dallas, Texas, USA
+  sub: IOT
+  note: Camera ready version by	August 24, 2021

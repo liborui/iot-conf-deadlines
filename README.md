@@ -16,7 +16,7 @@ English version [see](README-EN.md).
       + `sub`可以从`_data/types.yml`找到.
       + `timezone`可以填写如`UTC+10`或`America/New_York`格式, 具体参见[这里](https://momentjs.com/timezone/).
     + 选填项：`ccf`（会议CCF级别）, `note`（备注）, `abstract_deadline`（如有）, `hindex`（会议的h5-index）.
-      + 会议的`hindex`可以在[这里](https://www.guide2research.com/topconf/)找到.
+      + 会议的`hindex`可以在[这里](https://www.aminer.cn/ranks/conf)或[这里](https://www.guide2research.com/topconf/)找到.
 - 发送一个pull request.
     + [Pull request教程](https://blog.csdn.net/potato_prince/article/details/89305084).
     + [github fork 别人的项目源作者更新后如何同步更新](https://blog.csdn.net/zhongzunfa/article/details/80344585).
