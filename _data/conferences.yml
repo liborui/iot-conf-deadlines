@@ -116,8 +116,6 @@
   sub: IOT
   note: 'Beginning of author response period: Tuesday, April 6, 2021'
 
-<<<<<<< HEAD
-=======
 
 - title: ICDCS
   hindex: 39
@@ -136,7 +134,6 @@
   sub: IOT
   
 
->>>>>>> 6c53dbf611a0372a93d7cb25aad07407452086f9
 - title: SEC
   hindex: 23
   ccf: None
