@@ -12,7 +12,7 @@
   notification: September 3, 2021
   conf_date: November-December, 2021 (Tentative)
   place: San Jose, CA, USA
-  sub: IOT
+  sub: IoT
   note: This is the summer deadline for SEC21
 
 - title: INFOCOM
@@ -29,7 +29,7 @@
   conf_start: '2022-5-2'
   conf_end: '2022-5-5'
   place: London, United Kingdom
-  sub: IOT
+  sub: IoT
 
 - title: ASPLOS
   hindex: 55
@@ -78,7 +78,7 @@
   conf_start: '2020-11-29'
   conf_end: '2020-12-01'
   place: Online
-  sub: IOT
+  sub: IoT
 
 - title: INFOCOM
   hindex: 72
@@ -94,7 +94,7 @@
   conf_start: '2021-05-10'
   conf_end: '2021-05-13'
   place: Online
-  sub: IOT
+  sub: IoT
 
 - title: AAAI
   hindex: 126
@@ -126,7 +126,7 @@
   conf_start: '2021-04-12'
   conf_end: '2021-04-14'
   place: Online
-  sub: IOT
+  sub: IoT
 
 - title: ICC
   hindex: 67
@@ -141,7 +141,7 @@
   conf_start: '2021-06-14'
   conf_end: '2021-06-24'
   place: Online
-  sub: IOT
+  sub: IoT
 
 - title: OSDI
   hindex: 35
@@ -157,7 +157,7 @@
   conf_start: '2021-07-14'
   conf_end: '2021-07-16'
   place: SANTA CLARA, CA, USA
-  sub: IOT
+  sub: IoT
   note: Reviews available by Wednesday, March 3, 2021
 
 - title: ATC
@@ -174,7 +174,7 @@
   conf_start: '2021-07-14'
   conf_end: '2021-07-16'
   place: Santa Clara, CA, USA
-  sub: IOT
+  sub: IoT
   note: 'Beginning of author response period: Tuesday, April 6, 2021'
 
 - title: ICDCS
@@ -191,7 +191,7 @@
   conf_start: '2021-07-07'
   conf_end: '2021-07-10'
   place: Washington DC, USA
-  sub: IOT
+  sub: IoT
 
 - title: ICDCS
   hindex: 39
@@ -207,7 +207,7 @@
   conf_start: '2021-07-07'
   conf_end: '2021-07-10'
   place: Washington DC, USA
-  sub: IOT
+  sub: IoT
 
 - title: MobiSys
   hindex: 44
@@ -223,7 +223,7 @@
   conf_start: '2021-04-08'
   conf_end: '2021-04-10'
   place: Online
-  sub: IOT
+  sub: IoT
   note: 'Early rejection: March 1st.'
 
 - title: IJCAI
@@ -254,7 +254,7 @@
   notification: April 2, 2021
   conf_date: November-December, 2021 (Tentative)
   place: San Jose, CA, USA
-  sub: IOT
+  sub: IoT
   note: This is the winter deadline for SEC21
 
 - title: SIGCOMM
@@ -271,7 +271,7 @@
   conf_start: '2021-08-23'
   conf_end: '2021-08-27'
   place: Online
-  sub: IOT
+  sub: IoT
 
 - title: HotOS
   year: 2021
@@ -286,7 +286,7 @@
   conf_start: '2021-05-31'
   conf_end: '2021-06-02'
   place: Online
-  sub: IOT
+  sub: IoT
 
 - title: SIGMETRICS
   hindex: 21
@@ -302,7 +302,7 @@
   conf_start: '2021-06-14'
   conf_end: '2021-06-18'
   place: Beijing, China
-  sub: IOT
+  sub: IoT
   note: This is the winter deadline of SIGMETRICS 2021
 
 - title: UbiComp
@@ -319,7 +319,7 @@
   conf_start: '2021-09-12'
   conf_end: '2021-09-17'
   place: Online
-  sub: IOT
+  sub: IoT
   note: Deadline and time zone TBD.
 
 - title: IWQoS
@@ -336,7 +336,7 @@
   conf_start: '2021-06-25'
   conf_end: '2021-06-25'
   place: Tokyo, Japan
-  sub: IOT
+  sub: IoT
   note: Time zone TBD.
 
 - title: SECON
@@ -353,7 +353,7 @@
   conf_start: '2021-07-06'
   conf_end: '2021-07-09'
   place: Online
-  sub: IOT
+  sub: IoT
 
 - title: NOSSDAV
   hindex: 5
@@ -367,7 +367,7 @@
   notification: April 9, 2021
   conf_date: September, 2021
   place: Istanbul, Turkey
-  sub: IOT
+  sub: IoT
   note: Time zone TBD
 
 - title: MobiCom
@@ -384,7 +384,7 @@
   conf_start: '2021-10-25'
   conf_end: '2021-10-29'
   place: Online
-  sub: IOT
+  sub: IoT
 
 - title: CODES+ISSS
   hindex: 17
@@ -400,7 +400,7 @@
   conf_start: '2021-10-10'
   conf_end: '2021-10-15'
   place: Online
-  sub: IOT
+  sub: IoT
   note: WiP submission deadline is June 4, 2021
 
 - title: SOSP
@@ -417,7 +417,7 @@
   conf_start: '2021-10-26'
   conf_end: '2021-10-28'
   place: Koblenz, Germany
-  sub: IOT
+  sub: IoT
 
 - title: ICNP
   hindex: 23
@@ -433,7 +433,7 @@
   conf_start: '2021-11-02'
   conf_end: '2021-11-05'
   place: Dallas, Texas, USA
-  sub: IOT
+  sub: IoT
   note: "Camera ready version by\tAugust 24, 2021"
 
 - title: RTSS
@@ -449,7 +449,7 @@
   conf_start: '2021-12-08'
   conf_end: '2021-12-10'
   place: Online
-  sub: IOT
+  sub: IoT
 
 - title: SenSys
   hindex: 37
@@ -465,5 +465,5 @@
   conf_start: '2021-11-10'
   conf_end: '2021-11-15'
   place: Coimbra, Portugal
-  sub: IOT
+  sub: IoT
   note: Conf. start TBD. Camera Ready Due by October 1,st 2021

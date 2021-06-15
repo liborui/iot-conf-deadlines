@@ -1,6 +1,6 @@
 ---
 - name: IoT-related
-  sub: IOT
+  sub: IoT
 
 - name: Artificial Intelligence
   sub: AI
