@@ -26,8 +26,8 @@
   timezone: UTC-4
   notification: 2021-12-3
   conf_date: May 2-5, 2022
-  conf_start: 2022-5-2
-  conf_end: 2022-5-5
+  conf_start: '2022-5-2'
+  conf_end: '2022-5-5'
   place: London, United Kingdom
   sub: IOT
 
@@ -42,8 +42,8 @@
   timezone: UTC-12
   notification: '2021-11-15'
   conf_date: Feb 28-March 4, 2022
-  conf_start: 2022-2-28
-  conf_end: 2022-3-4
+  conf_start: '2022-2-28'
+  conf_end: '2022-3-4'
   place: Lausanne, Switzerland
   sub: Other
   note: "Author response\tNovember 2-4, 2021"
@@ -59,8 +59,8 @@
   timezone: UTC-7
   notification: '2021-12-15'
   conf_date: April 4-6, 2022
-  conf_start: 2022-4-4
-  conf_end: 2022-4-6
+  conf_start: '2022-4-4'
+  conf_end: '2022-4-6'
   place: Renton, WA, USA
   sub: IoT
 
